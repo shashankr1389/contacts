@@ -13,6 +13,11 @@
 		983038D81D8DB5E400F89232 /* Contact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 983038D61D8DB5E400F89232 /* Contact.xcdatamodeld */; };
 		983038DA1D8DB5E400F89232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983038D91D8DB5E400F89232 /* Assets.xcassets */; };
 		983038DD1D8DB5E400F89232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983038DB1D8DB5E400F89232 /* LaunchScreen.storyboard */; };
+		983038E51D8DBD5600F89232 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983038E41D8DBD5600F89232 /* AddContactController.swift */; };
+		983038EB1D8DC57100F89232 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983038E91D8DC57100F89232 /* Contact+CoreDataProperties.swift */; };
+		983038EC1D8DC57100F89232 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983038EA1D8DC57100F89232 /* Contact.swift */; };
+		98E4BBF51D8EF2C800BC68E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4BBF41D8EF2C800BC68E5 /* DetailViewController.swift */; };
+		98F3D4071D90672D00517010 /* contacticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F3D4061D90672D00517010 /* contacticon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		983038D91D8DB5E400F89232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983038DC1D8DB5E400F89232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983038DE1D8DB5E400F89232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983038E41D8DBD5600F89232 /* AddContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
+		983038E91D8DC57100F89232 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		983038EA1D8DC57100F89232 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		98E4BBF41D8EF2C800BC68E5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		98F3D4061D90672D00517010 /* contacticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacticon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,8 @@
 		983038C31D8DB5E400F89232 = {
 			isa = PBXGroup;
 			children = (
+				983038E91D8DC57100F89232 /* Contact+CoreDataProperties.swift */,
+				983038EA1D8DC57100F89232 /* Contact.swift */,
 				983038CE1D8DB5E400F89232 /* Contact */,
 				983038CD1D8DB5E400F89232 /* Products */,
 			);
@@ -59,6 +71,9 @@
 				983038CF1D8DB5E400F89232 /* AppDelegate.swift */,
 				983038D11D8DB5E400F89232 /* ViewController.swift */,
 				983038D31D8DB5E400F89232 /* Main.storyboard */,
+				98E4BBF41D8EF2C800BC68E5 /* DetailViewController.swift */,
+				98F3D4061D90672D00517010 /* contacticon.png */,
+				983038E41D8DBD5600F89232 /* AddContactController.swift */,
 				983038D91D8DB5E400F89232 /* Assets.xcassets */,
 				983038DB1D8DB5E400F89232 /* LaunchScreen.storyboard */,
 				983038DE1D8DB5E400F89232 /* Info.plist */,
@@ -128,6 +143,7 @@
 				983038DD1D8DB5E400F89232 /* LaunchScreen.storyboard in Resources */,
 				983038DA1D8DB5E400F89232 /* Assets.xcassets in Resources */,
 				983038D51D8DB5E400F89232 /* Main.storyboard in Resources */,
+				98F3D4071D90672D00517010 /* contacticon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983038EC1D8DC57100F89232 /* Contact.swift in Sources */,
 				983038D21D8DB5E400F89232 /* ViewController.swift in Sources */,
 				983038D01D8DB5E400F89232 /* AppDelegate.swift in Sources */,
+				983038E51D8DBD5600F89232 /* AddContactController.swift in Sources */,
+				983038EB1D8DC57100F89232 /* Contact+CoreDataProperties.swift in Sources */,
 				983038D81D8DB5E400F89232 /* Contact.xcdatamodeld in Sources */,
+				98E4BBF51D8EF2C800BC68E5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +312,7 @@
 				983038E31D8DB5E400F89232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
